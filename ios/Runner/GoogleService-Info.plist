@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1035169561953-m70a7rgl4ksv5k1r64484e4s1fcvaiut.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1035169561953-m70a7rgl4ksv5k1r64484e4s1fcvaiut</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1035169561953-okbs5mevi3mq1l997pp5j1m6ef4o792m.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyASriqgO8v4ewmkuRzVEthORWrRDfxU5jU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1035169561953</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.flockdock.app</string>
+	<key>PROJECT_ID</key>
+	<string>flock-dock</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flock-dock.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1035169561953:ios:d837930b442059f2f75920</string>
+</dict>
+</plist>

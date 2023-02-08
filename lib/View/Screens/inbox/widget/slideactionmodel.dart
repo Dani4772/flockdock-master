@@ -1,0 +1,1 @@
+enum SlideableAction {accept,delete }

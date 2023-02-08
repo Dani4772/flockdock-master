@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1041550274072",
+    "project_id": "flockdock-334c2",
+    "storage_bucket": "flockdock-334c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041550274072:android:4b871638dd5e4f69e71d6d",
+        "android_client_info": {
+          "package_name": "com.flockdock.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041550274072-hahv6tqar76vgnl6d061cmf10en6nbhu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flockdock.app",
+            "certificate_hash": "ca2e4fdfb0536597f7c3f5829f9fcd79df542d66"
+          }
+        },
+        {
+          "client_id": "1041550274072-lq1564f1oicr764qngdcoh8kqbakq3al.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvbLyCW41YO0qksycT6moJ-MHZT6G9QxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041550274072-lq1564f1oicr764qngdcoh8kqbakq3al.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_68" data-name="Group 68" transform="translate(-2095 -325)">
+    <g id="facebook_circle" data-name="facebook circle" transform="translate(1962.051 -348.4)">
+      <path id="Path_666" data-name="Path 666" d="M91.867,23.041V18.387H93.43l.234-1.814h-1.8V15.415c0-.525.146-.883.9-.883h.96V12.911a12.873,12.873,0,0,0-1.4-.071,2.185,2.185,0,0,0-2.333,2.4v1.337H88.428v1.814h1.566v4.654Z" transform="translate(53.521 667.561)" fill="#fdfdfd"/>
+    </g>
+    <g id="Rectangle_239" data-name="Rectangle 239" transform="translate(2095 325)" fill="none" stroke="#fff" stroke-width="2" opacity="0.95">
+      <rect width="24" height="24" rx="5" stroke="none"/>
+      <rect x="1" y="1" width="22" height="22" rx="4" fill="none"/>
+    </g>
+  </g>
+</svg>

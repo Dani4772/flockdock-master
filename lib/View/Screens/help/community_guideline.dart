@@ -1,0 +1,129 @@
+import 'package:flocdock/View/base/simple_appbar.dart';
+import 'package:flocdock/constants/constants.dart';
+import 'package:flocdock/constants/dimensions.dart';
+import 'package:flocdock/constants/styles.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+class CommunityGuideline extends StatefulWidget {
+   const CommunityGuideline({Key? key,}) : super(key: key);
+
+  @override
+  State<CommunityGuideline> createState() => _CommunityGuidelineState();
+}
+
+class _CommunityGuidelineState extends State<CommunityGuideline> {
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: KbgBlack,
+      appBar: SimpleAppbar(description: "", pageName: "Community Guideline",pageTrailing: "",),
+      body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
+        padding: EdgeInsets.symmetric(horizontal: Dimensions.PADDING_SIZE_LARGE),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            InkWell(
+              onTap: () => Get.back(),
+              child: Padding(
+                padding: const EdgeInsets.only(top: 10),
+                child: Row(
+                  children: [
+                    Icon(Icons.arrow_back_ios_rounded,color: KDullBlack,size: 20,),
+                    Text("Back",style: proximaBold.copyWith(color: KdullWhite)),
+                  ],
+                ),
+              ),
+            ),
+            SizedBox(height: 15,),
+            Text("Fork Dock Community Guidelines",style: proximaExtraBold.copyWith(color: KWhite)),
+            SizedBox(height: 8,),
+            Text("Following these guidelines to practice good citizenship in the Fitness "
+                "community and help make a welcoming, supportive place for all people.",
+                //textAlign: TextAlign.center,
+                style: proximaSemiBold.copyWith(color: KWhite.withOpacity(0.5))
+            ),
+            SizedBox(height: 15,),
+            Text("1. Be Supportive",style: proximaExtraBold.copyWith(color: KWhite)),
+            SizedBox(height: 8,),
+            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sed nibh "
+                "lacus, arcu. Nisl vel tellus tempus maecenas. Mi arcu rhoncus, "
+                "mi elit mi ut ornarequam.Condimentum accumsan leo tincidunt in enim. "
+                "Quis aliquam et elementum sed mauris lorem. A, cursus blandit risus ultrices."
+                " Vulputate nisl ullamcorper sed ut orci, turpis. Mauris id proin eget rhoncus."
+                " Amet fames et etiam facilisi tempor nisl. Amet, a aliquet pretium vel. "
+                "Nisl, purus odio tellus vulputate ornare nam. Aliquam ac ullamcorper odio sit. "
+                "Sodales amet sit pretium ante molestie enim donec facilisis. "
+                "Magna cursus aliquet nibh mauris risus.Sit duis sit pharetra elementum mi sodales id. "
+                "Sollicitudin odio ante pellentesque ac non arcu. Quisque tortor id nisl malesuada "
+                "morbi sed in. Commodo, tincidunt convallis condimentum pellentesque. "
+                "Tellus dui velit, ullamcorper aliquet ut feugiat nunc faucibus elit. "
+                "Neque dolor, enim tristique et nulla cras. Hac leo at adipiscing posuere integer luctus. "
+                "Nisi, morbi fringilla tristique urna nibh vel id iaculis egestas.",
+                style: proximaSemiBold.copyWith(color: KWhite.withOpacity(0.8))
+            ),
+            SizedBox(height: 15,),
+            Text("2. Share Resources",style: proximaExtraBold.copyWith(color: KWhite)),
+            SizedBox(height: 8,),
+            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sed nibh "
+                "lacus, arcu. Nisl vel tellus tempus maecenas. Mi arcu rhoncus, "
+                "mi elit mi ut ornarequam.Condimentum accumsan leo tincidunt in enim. "
+                "Quis aliquam et elementum sed mauris lorem. A, cursus blandit risus ultrices."
+                " Vulputate nisl ullamcorper sed ut orci, turpis. Mauris id proin eget rhoncus."
+                " Amet fames et etiam facilisi tempor nisl. Amet, a aliquet pretium vel. "
+                "Nisl, purus odio tellus vulputate ornare nam. Aliquam ac ullamcorper odio sit. "
+                "Sodales amet sit pretium ante molestie enim donec facilisis. "
+                "Magna cursus aliquet nibh mauris risus.Sit duis sit pharetra elementum mi sodales id. "
+                "Sollicitudin odio ante pellentesque ac non arcu. Quisque tortor id nisl malesuada "
+                "morbi sed in. Commodo, tincidunt convallis condimentum pellentesque. "
+                "Tellus dui velit, ullamcorper aliquet ut feugiat nunc faucibus elit. "
+                "Neque dolor, enim tristique et nulla cras. Hac leo at adipiscing posuere integer luctus. "
+                "Nisi, morbi fringilla tristique urna nibh vel id iaculis egestas.",
+                style: proximaSemiBold.copyWith(color: KWhite.withOpacity(0.8))
+            ),
+            SizedBox(height: 15,),
+            Text("3. Communicate Respectfully",style: proximaExtraBold.copyWith(color: KWhite)),
+            SizedBox(height: 8,),
+            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sed nibh "
+                "lacus, arcu. Nisl vel tellus tempus maecenas. Mi arcu rhoncus, "
+                "mi elit mi ut ornarequam.Condimentum accumsan leo tincidunt in enim. "
+                "Quis aliquam et elementum sed mauris lorem. A, cursus blandit risus ultrices."
+                " Vulputate nisl ullamcorper sed ut orci, turpis. Mauris id proin eget rhoncus."
+                " Amet fames et etiam facilisi tempor nisl. Amet, a aliquet pretium vel. "
+                "Nisl, purus odio tellus vulputate ornare nam. Aliquam ac ullamcorper odio sit. "
+                "Sodales amet sit pretium ante molestie enim donec facilisis. "
+                "Magna cursus aliquet nibh mauris risus.Sit duis sit pharetra elementum mi sodales id. "
+                "Sollicitudin odio ante pellentesque ac non arcu. Quisque tortor id nisl malesuada "
+                "morbi sed in. Commodo, tincidunt convallis condimentum pellentesque. "
+                "Tellus dui velit, ullamcorper aliquet ut feugiat nunc faucibus elit. "
+                "Neque dolor, enim tristique et nulla cras. Hac leo at adipiscing posuere integer luctus. "
+                "Nisi, morbi fringilla tristique urna nibh vel id iaculis egestas.",
+                style: proximaSemiBold.copyWith(color: KWhite.withOpacity(0.8))
+            ),
+            SizedBox(height: 15,),
+            Text("4. Speak Up",style: proximaExtraBold.copyWith(color: KWhite)),
+            SizedBox(height: 8,),
+            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sed nibh "
+                "lacus, arcu. Nisl vel tellus tempus maecenas. Mi arcu rhoncus, "
+                "mi elit mi ut ornarequam.Condimentum accumsan leo tincidunt in enim. "
+                "Quis aliquam et elementum sed mauris lorem. A, cursus blandit risus ultrices."
+                " Vulputate nisl ullamcorper sed ut orci, turpis. Mauris id proin eget rhoncus."
+                " Amet fames et etiam facilisi tempor nisl. Amet, a aliquet pretium vel. "
+                "Nisl, purus odio tellus vulputate ornare nam. Aliquam ac ullamcorper odio sit. "
+                "Sodales amet sit pretium ante molestie enim donec facilisis. "
+                "Magna cursus aliquet nibh mauris risus.Sit duis sit pharetra elementum mi sodales id. "
+                "Sollicitudin odio ante pellentesque ac non arcu. Quisque tortor id nisl malesuada "
+                "morbi sed in. Commodo, tincidunt convallis condimentum pellentesque. "
+                "Tellus dui velit, ullamcorper aliquet ut feugiat nunc faucibus elit. "
+                "Neque dolor, enim tristique et nulla cras. Hac leo at adipiscing posuere integer luctus. "
+                "Nisi, morbi fringilla tristique urna nibh vel id iaculis egestas.",
+                style: proximaSemiBold.copyWith(color: KWhite.withOpacity(0.8))
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

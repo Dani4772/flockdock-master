@@ -1,0 +1,11 @@
+.idea/
+.packages/
+.git/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+Podfile.lock
+.packages
+*.zip
+build/
+.ios/
